@@ -9,6 +9,8 @@ on:
 jobs:
   sign-in:
     runs-on: ubuntu-latest
+    environment: 
+      name: a
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
